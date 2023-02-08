@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<title>Affine Cipher</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Affine Cipher</h1>
+
+
+<div>
+<form> Plaintext<br>
+<textarea name="p" rows="4" cols="50" wrap="soft">Enter your plaintext here</textarea>
+<p>a =
+<select name="mult" size="1">
+<option>1</option>
+<option>3</option>
+<option>5</option>
+<option>7</option>
+<option>9</option>
+<option>11</option>
+<option>15</option>
+<option>17</option>
+<option>19</option>
+<option>21</option>
+<option>23</option>
+<option>25</option>
+</select>
+b =
+<select name="add" size="1">
+<option>0</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+</select>
+</p>
+<p><input name="btnEn" value="v Encrypt v" onclick="Encrypt(this.form)"
+type="button" class="btn">
+<input name="btnDe" value="^ Decrypt ^" onclick="Decrypt(this.form)"
+type="button" class="btn"></p>
+<p>Ciphertext<br>
+<textarea name="c" rows="4" cols="50" wrap="soft" >Enter your ciphertext here</textarea> </p>
+
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
